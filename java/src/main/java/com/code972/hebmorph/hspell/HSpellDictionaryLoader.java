@@ -1,15 +1,14 @@
 package com.code972.hebmorph.hspell;
 
-import com.code972.hebmorph.DictionaryLoader;
-import com.code972.hebmorph.datastructures.DictHebMorph;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Paths;
 import java.util.HashSet;
+
+import com.code972.hebmorph.DictionaryLoader;
+import com.code972.hebmorph.datastructures.DictHebMorph;
 
 /**
  * DictionaryLoader implementation for loading hspell data files
@@ -40,7 +39,7 @@ public class HSpellDictionaryLoader implements DictionaryLoader {
 
     @Override
     public DictHebMorph loadDictionary(final InputStream stream) throws IOException {
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException();
     }
 
     @Override
